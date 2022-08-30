@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220830032719",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "pais",
+  "fields": [
+    {
+      "fieldName": "ativo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sigla",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Pais",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "estado",
+      "otherEntityRelationshipName": "pais",
+      "relationshipName": "estado",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

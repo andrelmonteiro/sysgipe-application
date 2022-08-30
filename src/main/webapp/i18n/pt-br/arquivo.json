@@ -1,0 +1,36 @@
+{
+  "sysgipeApp": {
+    "arquivo": {
+      "home": {
+        "title": "Arquivos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Arquivo",
+        "createOrEditLabel": "Criar ou editar Arquivo",
+        "search": "Pesquisar por Arquivo",
+        "notFound": "Nenhum Arquivo encontrado"
+      },
+      "created": "Um novo Arquivo foi criado com o identificador {{ param }}",
+      "updated": "Um Arquivo foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Arquivo foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Arquivo {{ id }}?"
+      },
+      "detail": {
+        "title": "Arquivo"
+      },
+      "id": "ID",
+      "assinado": "Assinado",
+      "ativo": "Ativo",
+      "dateCreated": "Date Created",
+      "diretorio": "Diretorio",
+      "documentoId": "Documento Id",
+      "hash": "Hash",
+      "hashConteudo": "Hash Conteudo",
+      "historico": "Historico",
+      "lacunaToken": "Lacuna Token",
+      "lastUpdate": "Last Update",
+      "mimeType": "Mime Type",
+      "nome": "Nome"
+    }
+  }
+}

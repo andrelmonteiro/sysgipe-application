@@ -1,0 +1,33 @@
+{
+  "sysgipeApp": {
+    "endereco": {
+      "home": {
+        "title": "Enderecos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Endereco",
+        "createOrEditLabel": "Criar ou editar Endereco",
+        "search": "Pesquisar por Endereco",
+        "notFound": "Nenhum Endereco encontrado"
+      },
+      "created": "Um novo Endereco foi criado com o identificador {{ param }}",
+      "updated": "Um Endereco foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Endereco foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Endereco {{ id }}?"
+      },
+      "detail": {
+        "title": "Endereco"
+      },
+      "id": "ID",
+      "ativo": "Ativo",
+      "atual": "Atual",
+      "bairro": "Bairro",
+      "cep": "Cep",
+      "complemento": "Complemento",
+      "dataExclusao": "Data Exclusao",
+      "usuarioExclusaoId": "Usuario Exclusao Id",
+      "municipio": "Municipio",
+      "opessoas": "Opessoas"
+    }
+  }
+}

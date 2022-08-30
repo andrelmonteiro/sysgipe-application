@@ -1,0 +1,81 @@
+entity Arquivo {
+	
+    assinado String,
+    ativo Integer,
+    dateCreated LocalDate, 
+    diretorio String,
+    documentoId Integer,
+    hash String,
+    hashConteudo String,
+    historico Boolean,
+    lacunaToken String,
+    lastUpdate LocalDate,
+    mimeType String,
+    nome String      
+}
+
+entity Assunto{
+	
+    arigo String,
+    ativo Boolean,
+    codigo Integer,
+    dataExclusao LocalDate,
+    dispositivo String,
+    glossario String,
+    nome String,
+    observacao String,
+    paiId Integer,
+    tipo String,
+    usuarioExclusaoId Integer
+}
+
+entity Pessoa {
+
+ativo Integer,
+autoridade Boolean,
+contato String required,
+}
+
+entity Estado{
+
+ativo Integer,
+codigoIbge Integer,
+nome String required,
+sigla String
+}
+
+entity Pais{
+
+ativo Integer,
+nome String required,
+sigla String,
+
+}
+
+entity Municipio{
+
+ativo Integer,
+codigoIbge Integer,
+nome String required,
+}
+entity Endereco{
+ativo Integer,
+atual Boolean,
+bairro String
+cep String,
+complemento String, 
+dataExclusao LocalDate,
+usuarioExclusaoId Integer
+
+}
+
+relationship OneToMany {
+ Pais to Estado{pais(nome)},
+ Estado to Municipio,
+ Municipio to Endereco,
+} 
+ relationship ManyToMany {
+ Pessoa{enderecos(nome)} to Endereco{opessoas(nome)}
+
+ 
+}
