@@ -1,0 +1,38 @@
+{
+  "applications": "*",
+  "changelogDate": "20220830032717",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "pessoa",
+  "fields": [
+    {
+      "fieldName": "ativo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "autoridade",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "contato",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Pessoa",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "nome",
+      "otherEntityName": "endereco",
+      "otherEntityRelationshipName": "opessoas",
+      "ownerSide": true,
+      "relationshipName": "enderecos",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

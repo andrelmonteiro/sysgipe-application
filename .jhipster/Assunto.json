@@ -1,0 +1,60 @@
+{
+  "applications": "*",
+  "changelogDate": "20220830032716",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "assunto",
+  "fields": [
+    {
+      "fieldName": "arigo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ativo",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "codigo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dataExclusao",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dispositivo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "glossario",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "observacao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paiId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "tipo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "usuarioExclusaoId",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Assunto",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

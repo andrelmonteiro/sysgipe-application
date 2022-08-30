@@ -48,6 +48,18 @@ public class CacheConfiguration {
             createCache(cm, br.com.sysgipe.domain.User.class.getName());
             createCache(cm, br.com.sysgipe.domain.Authority.class.getName());
             createCache(cm, br.com.sysgipe.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.com.sysgipe.domain.Arquivo.class.getName());
+            createCache(cm, br.com.sysgipe.domain.Assunto.class.getName());
+            createCache(cm, br.com.sysgipe.domain.Pessoa.class.getName());
+            createCache(cm, br.com.sysgipe.domain.Pessoa.class.getName() + ".enderecos");
+            createCache(cm, br.com.sysgipe.domain.Estado.class.getName());
+            createCache(cm, br.com.sysgipe.domain.Estado.class.getName() + ".municipios");
+            createCache(cm, br.com.sysgipe.domain.Pais.class.getName());
+            createCache(cm, br.com.sysgipe.domain.Pais.class.getName() + ".estados");
+            createCache(cm, br.com.sysgipe.domain.Municipio.class.getName());
+            createCache(cm, br.com.sysgipe.domain.Municipio.class.getName() + ".enderecos");
+            createCache(cm, br.com.sysgipe.domain.Endereco.class.getName());
+            createCache(cm, br.com.sysgipe.domain.Endereco.class.getName() + ".opessoas");
             // jhipster-needle-ehcache-add-entry
         };
     }

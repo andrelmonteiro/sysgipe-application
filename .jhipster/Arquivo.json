@@ -1,0 +1,64 @@
+{
+  "applications": "*",
+  "changelogDate": "20220830032715",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "arquivo",
+  "fields": [
+    {
+      "fieldName": "assinado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ativo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateCreated",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "diretorio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "documentoId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "hash",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hashConteudo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "historico",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "lacunaToken",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "mimeType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Arquivo",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

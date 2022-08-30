@@ -1,0 +1,59 @@
+{
+  "applications": "*",
+  "changelogDate": "20220830032721",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "endereco",
+  "fields": [
+    {
+      "fieldName": "ativo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "atual",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "bairro",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cep",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "complemento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataExclusao",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "usuarioExclusaoId",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Endereco",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "municipio",
+      "otherEntityRelationshipName": "endereco",
+      "relationshipName": "municipio",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "nome",
+      "otherEntityName": "pessoa",
+      "otherEntityRelationshipName": "enderecos",
+      "ownerSide": false,
+      "relationshipName": "opessoas",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

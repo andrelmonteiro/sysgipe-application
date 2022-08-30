@@ -1,0 +1,30 @@
+{
+  "sysgipeApp": {
+    "estado": {
+      "home": {
+        "title": "Estados",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Estado",
+        "createOrEditLabel": "Criar ou editar Estado",
+        "search": "Pesquisar por Estado",
+        "notFound": "Nenhum Estado encontrado"
+      },
+      "created": "Um novo Estado foi criado com o identificador {{ param }}",
+      "updated": "Um Estado foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Estado foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Estado {{ id }}?"
+      },
+      "detail": {
+        "title": "Estado"
+      },
+      "id": "ID",
+      "ativo": "Ativo",
+      "codigoIbge": "Codigo Ibge",
+      "nome": "Nome",
+      "sigla": "Sigla",
+      "municipio": "Municipio",
+      "pais": "Pais"
+    }
+  }
+}

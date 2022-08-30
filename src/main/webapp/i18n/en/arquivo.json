@@ -1,0 +1,36 @@
+{
+  "sysgipeApp": {
+    "arquivo": {
+      "home": {
+        "title": "Arquivos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Arquivo",
+        "createOrEditLabel": "Create or edit a Arquivo",
+        "search": "Search for Arquivo",
+        "notFound": "No Arquivos found"
+      },
+      "created": "A new Arquivo is created with identifier {{ param }}",
+      "updated": "A Arquivo is updated with identifier {{ param }}",
+      "deleted": "A Arquivo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Arquivo {{ id }}?"
+      },
+      "detail": {
+        "title": "Arquivo"
+      },
+      "id": "ID",
+      "assinado": "Assinado",
+      "ativo": "Ativo",
+      "dateCreated": "Date Created",
+      "diretorio": "Diretorio",
+      "documentoId": "Documento Id",
+      "hash": "Hash",
+      "hashConteudo": "Hash Conteudo",
+      "historico": "Historico",
+      "lacunaToken": "Lacuna Token",
+      "lastUpdate": "Last Update",
+      "mimeType": "Mime Type",
+      "nome": "Nome"
+    }
+  }
+}

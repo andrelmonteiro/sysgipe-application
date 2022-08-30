@@ -1,0 +1,47 @@
+{
+  "applications": "*",
+  "changelogDate": "20220830032718",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "estado",
+  "fields": [
+    {
+      "fieldName": "ativo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "codigoIbge",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sigla",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Estado",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "municipio",
+      "otherEntityRelationshipName": "estado",
+      "relationshipName": "municipio",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityField": "nome",
+      "otherEntityName": "pais",
+      "otherEntityRelationshipName": "estado",
+      "relationshipName": "pais",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
