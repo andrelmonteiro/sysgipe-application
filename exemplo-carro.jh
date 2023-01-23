@@ -1,0 +1,60 @@
+
+entity Carro{
+
+}
+
+entity Inventariante {
+nome String required,
+cpf String required,
+identidade String required,
+endereco String,
+cidade String,
+uf String,
+cep String
+
+
+}
+
+
+entity Credor{
+nome String required,
+cpf String required,
+identidade String required
+endereco String,
+cidade String,
+uf String,
+cep String
+}
+
+entity Conta{
+valor Long required,
+saldo Long,
+data LocalDate
+
+}
+
+
+entity Natureza{
+ descricao String required,
+ 
+}
+
+relationship OneToOne{
+    
+    }
+}
+
+relationship ManyToMany{
+
+}
+
+relationship OneToMany{
+
+Credor{conta} to Conta
+}
+
+
+//dto * with mapstruct
+//angularSuffix * with Precatorio
+paginate Precatorio with infinite-scroll
+paginate Natureza with pagination
